@@ -6,8 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DDADC8F42F6C894E0079DF46 /* helpertool in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDADC8EC2F6C88D10079DF46 /* helpertool */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDADC8EA2F6C88D10079DF46 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DDADC8F32F6C89420079DF46 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				DDADC8F42F6C894E0079DF46 /* helpertool in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DDADC8D72F6C88390079DF46 /* Synchmod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Synchmod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDADC8EC2F6C88D10079DF46 /* helpertool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helpertool; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +43,22 @@
 			path = Synchmod;
 			sourceTree = "<group>";
 		};
+		DDADC8ED2F6C88D10079DF46 /* helpertool */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = helpertool;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DDADC8D42F6C88390079DF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDADC8E92F6C88D10079DF46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				DDADC8D92F6C88390079DF46 /* Synchmod */,
+				DDADC8ED2F6C88D10079DF46 /* helpertool */,
 				DDADC8D82F6C88390079DF46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				DDADC8D72F6C88390079DF46 /* Synchmod.app */,
+				DDADC8EC2F6C88D10079DF46 /* helpertool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +96,7 @@
 				DDADC8D32F6C88390079DF46 /* Sources */,
 				DDADC8D42F6C88390079DF46 /* Frameworks */,
 				DDADC8D52F6C88390079DF46 /* Resources */,
+				DDADC8F32F6C89420079DF46 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -70,6 +112,28 @@
 			productReference = DDADC8D72F6C88390079DF46 /* Synchmod.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DDADC8EB2F6C88D10079DF46 /* helpertool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDADC8F02F6C88D10079DF46 /* Build configuration list for PBXNativeTarget "helpertool" */;
+			buildPhases = (
+				DDADC8E82F6C88D10079DF46 /* Sources */,
+				DDADC8E92F6C88D10079DF46 /* Frameworks */,
+				DDADC8EA2F6C88D10079DF46 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DDADC8ED2F6C88D10079DF46 /* helpertool */,
+			);
+			name = helpertool;
+			packageProductDependencies = (
+			);
+			productName = helpertool;
+			productReference = DDADC8EC2F6C88D10079DF46 /* helpertool */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -81,6 +145,9 @@
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					DDADC8D62F6C88390079DF46 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					DDADC8EB2F6C88D10079DF46 = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
@@ -100,6 +167,7 @@
 			projectRoot = "";
 			targets = (
 				DDADC8D62F6C88390079DF46 /* Synchmod */,
+				DDADC8EB2F6C88D10079DF46 /* helpertool */,
 			);
 		};
 /* End PBXProject section */
@@ -116,6 +184,13 @@
 
 /* Begin PBXSourcesBuildPhase section */
 		DDADC8D32F6C88390079DF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDADC8E82F6C88D10079DF46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,7 +329,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 945VR7793F;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -286,7 +361,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 945VR7793F;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -309,6 +384,40 @@
 			};
 			name = Release;
 		};
+		DDADC8F12F6C88D10079DF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				DEVELOPMENT_TEAM = 945VR7793F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = helpertool/Info.plist;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doumiao.Synchmod.helpertool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DDADC8F22F6C88D10079DF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				DEVELOPMENT_TEAM = 945VR7793F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = helpertool/Info.plist;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doumiao.Synchmod.helpertool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -326,6 +435,15 @@
 			buildConfigurations = (
 				DDADC8E32F6C883A0079DF46 /* Debug */,
 				DDADC8E42F6C883A0079DF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDADC8F02F6C88D10079DF46 /* Build configuration list for PBXNativeTarget "helpertool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDADC8F12F6C88D10079DF46 /* Debug */,
+				DDADC8F22F6C88D10079DF46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
