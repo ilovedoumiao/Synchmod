@@ -1,4 +1,4 @@
-<img src="Synchmod/Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png" alt="Synchmod icon" width="64px" style="vertical-align: middle; margin-right: 8px;" />
+<img src="Synchmod/Assets.xcassets/AppIcon.appiconset/Synchmod-macOS-Dark-256x256@2x.png" alt="Synchmod icon" width="128px" style="vertical-align: middle; margin-right: 8px;" />
 
 # Synchmod
 
