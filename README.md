@@ -1,6 +1,13 @@
-<img src="Synchmod/Assets.xcassets/AppIcon.appiconset/Synchmod-macOS-Dark-256x256@2x.png" alt="Synchmod icon" width="128px" style="vertical-align: middle; margin-right: 8px;" />
+<p align="center">
+    <img width="128" alt="Synchmod Logo" src="Synchmod/Assets.xcassets/AppIcon.appiconset/Synchmod-macOS-Dark-256x256@2x.png">
+</p>
 
-# Synchmod
+<h1 align="center">Synchmod</h1>
+
+<p align="center">
+  <img alt="Synchmod - A clone for the beloved batChmod, but for Apple Silicon"
+       src="ss-synchmod.jpg">
+</p>
 
 Synchmod is a clone for the beloved batChmod, but for Apple Silicon.
 It's only for changing file/folder ownership and permissions right now, with no other options found in the OG app. Uses SMJobBless privileged helper tool.
