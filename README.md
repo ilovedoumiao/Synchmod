@@ -43,3 +43,6 @@ You may need to run the included `SMJobBlessUtil.py` after building to update th
 
 I've set the project to build for only `arm64` so change accordingly if you need a Universal build.
 
+
+## Support
+If you find this useful, [buying me a coffee](https://buymeacoffee.com/coffeeguzzler) ☕️ to fuel my day will be very much appreciated.
